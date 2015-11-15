@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        {% include meta.html %}
+        <link rel="shortcut icon" href="/favicon.ico">
+        {% include styles.html %}
+        {% include scripts_head.html %}
+    </head>
+    <body>
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% if page.ga_id %}{% include tracking.html ga_id=page.ga_id %}{% endif %}
+    </body>
+</html>

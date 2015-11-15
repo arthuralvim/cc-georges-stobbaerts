@@ -1,0 +1,23 @@
+# jekyll settings
+
+markdown: redcarpet
+highlighter: pygments
+port: 9000
+permalink: pretty
+exclude: ['.bowerrc', '.gitignore', '.travis.yml', 'assets/bower', 'assets/js-src',
+    'bower.json', 'circle.yml', 'gulpfile.js', 'node_modules', 'package.json',
+    'Rakefile', 'README.md']
+
+# url: "http://cc-georges-stobbaerts.github.io" # the base hostname & protocol for your site
+# baseurl: ""
+
+# i18n
+
+default_locale: 'pt-BR'
+authorized_locales: ['pt-BR', ]
+
+# sass
+
+sass:
+    sass_dir: _sass
+    # style: compressed

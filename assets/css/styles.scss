@@ -1,0 +1,13 @@
+---
+---
+
+@import "_variables";
+@import "_header";
+@import "_footer";
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  color: $body-bg;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
