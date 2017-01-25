@@ -1,7 +1,7 @@
 # jekyll settings
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 port: 9000
 permalink: pretty
 exclude: ['.bowerrc', '.gitignore', '.travis.yml', 'assets/bower', 'assets/js-src',
