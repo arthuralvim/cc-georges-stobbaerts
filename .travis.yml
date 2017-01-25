@@ -1,4 +1,10 @@
 language: ruby
 rvm:
     - 2.3.3
+before_script:
+  - npm install -g bower
+  - npm install -g gulp
+  - bower install
+  - npm install
+  - gulp
 script: "bundle exec jekyll build"
