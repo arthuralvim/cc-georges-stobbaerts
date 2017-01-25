@@ -36,7 +36,7 @@ $ npm install -g bower
 ## Dependências
 
 ```bash
-$ git clone git@github.com:dojo-do-circulo/dojodocirculo.github.io.git
+$ git clone git@github.com:dojodocirculo/dojodocirculo.github.io.git
 $ cd dojodocirculo.github.io
 ```
 

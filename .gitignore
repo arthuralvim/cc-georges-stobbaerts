@@ -1,6 +1,8 @@
 .DS_Store
 .sass-cache
 _site
-assets/bower
+assets/*
+!assets/js-src
+!assets/css/*.scss
 node_modules
 *.lock

@@ -1,5 +1,5 @@
 {
-  "name": "dojo-do-circulo",
+  "name": "dojodocirculo",
   "dependencies": {
     "bootstrap": "3.1.0",
     "bootstrap-sass-official": "~3.1.0",
