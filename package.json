@@ -1,8 +1,8 @@
 {
-  "name": "cc-georges-stobbaerts-site",
+  "name": "dojo-do-circulo.github.io",
   "author": "arthuralvim",
   "version": "0.0.1",
-  "description": "arthuralvim website",
+  "description": "",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-clean": "^0.3.1",

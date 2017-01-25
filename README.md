@@ -1,11 +1,19 @@
-# cc-georges-stobbaerts
+# dojo-do-circulo
 
-Site do [Centro Cultural Georges Stobbaerts](http://www.aikido-recife.com.br) .
+Site do [Dojo do Círculo](http://www.dojodocirculo.com.br) .
 
 
 ## Ferramentas
 
-* Ruby e NPM precisam estar instalados.
+* Ruby (e Bundler) e NPM precisam estar instalados.
+
+```bash
+$ brew install ruby
+```
+
+```bash
+$ brew install npm
+```
 
 ### Jekyll
 
@@ -28,8 +36,8 @@ $ npm install -g bower
 ## Dependências
 
 ```bash
-$ git clone git@github.com:arthuralvim/cc-georges-stobbaerts.git
-$ cd cc-georges-stobbaerts
+$ git clone git@github.com:dojo-do-circulo/dojodocirculo.github.io.git
+$ cd dojodocirculo.github.io
 ```
 
 ### Dependências do NPM
@@ -53,10 +61,20 @@ $ bower install
 $ gulp
 ```
 
+### Bundle:
+
+```bash
+$ bundle install
+```
+
 ### Jekyll
 
 ```bash
 $ jekyll serve
+```
+ou
+```bash
+$ bundle exec jekyll serve
 ```
 
 ### Navegador:

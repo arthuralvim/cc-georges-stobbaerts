@@ -1,5 +1,5 @@
 {
-  "name": "cc-georges-stobbaerts",
+  "name": "dojo-do-circulo",
   "dependencies": {
     "bootstrap": "3.1.0",
     "bootstrap-sass-official": "~3.1.0",
@@ -14,5 +14,6 @@
   },
   "resolutions": {
     "underscore": "1.7.0"
-  }
+  },
+  "private": true
 }

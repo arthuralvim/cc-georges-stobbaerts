@@ -3,3 +3,4 @@
 _site
 assets/bower
 node_modules
+*.lock
