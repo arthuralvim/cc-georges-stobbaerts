@@ -1,0 +1,92 @@
+
+#instrutores {
+
+    background-color: $instrutores-background;
+
+    h1.title-section {
+        color: #fff;
+    }
+
+    .instrutor {
+
+        .instrutor-wrapper {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            margin-top: 40px;
+
+            &:hover .mask {
+                bottom: 0;
+            }
+
+            .mask {
+                display: block;
+                position: absolute;
+                z-index: 1;
+                bottom: -100%;
+                left: 0;
+                width: 100%;
+                padding-bottom: 30px;
+                background: #fff;
+                text-align: center;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -ms-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                transition: all 0.3s linear;
+
+                &:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    z-index: -1;
+                    top: -20px;
+                    width: 100%;
+                    height: 40px;
+                    background: #fff;
+                    // -ms-transform: skewY(-3deg);
+                    // /* IE 9 */
+                    // -webkit-transform: skewY(-3deg);
+                    // /* Safari */
+                    // -moz-transform: skewY(-3deg);
+                    // -o-transform: skewY(-3deg);
+                    // transform: skewY(-3deg);
+                }
+
+                h1 {
+                    font-family: 'Open Sans';
+                    font-style: italic;
+                    font-weight: 800;
+                    font-size: 26px;
+                    line-height: 30px;
+                    color: #000;
+                    margin: 10px 0 0 0;
+                }
+
+                p {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #000;
+                    margin: 10px 0 0 0;
+                    padding: 0;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  #instrutores .instrutor {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

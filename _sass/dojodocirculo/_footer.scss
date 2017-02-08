@@ -1,0 +1,23 @@
+
+#footer {
+
+    background-color: $footer-background;
+    min-height: 300px;
+
+    .footer-text {
+        color: #9c9c9c;
+        font-size: 14px;
+        line-height: 1.7em;
+        font-weight: bold;
+    }
+
+    .footer-tenchi {
+        height: 52px;
+
+        svg path {
+            color: #fff;
+            fill: #fff !important;
+        }
+    }
+
+}

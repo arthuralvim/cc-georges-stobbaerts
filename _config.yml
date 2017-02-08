@@ -19,10 +19,13 @@ authorized_locales: ['pt-BR', ]
 gems:
     - jekyll-paginate
     - jekyll-sitemap
+    - jekyll-bootstrap-sass
 
 # sass
 
 sass:
     sass_dir: _sass
     style: compressed
-    # style: expanded
+
+bootstrap:
+  assets: false

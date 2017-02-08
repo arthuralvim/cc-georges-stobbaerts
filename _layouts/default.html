@@ -3,15 +3,22 @@
     <head>
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         {% include meta.html %}
-        <link rel="shortcut icon" href="/favicon.ico">
         {% include styles.html %}
         {% include scripts_head.html %}
     </head>
     <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+    {% include dojodocirculo/menu_2.html %}
+    {% include dojodocirculo/header.html %}
+    {% include dojodocirculo/noticias.html %}
+    {% include dojodocirculo/modalidades.html %}
+    {% include dojodocirculo/horarios.html %}
+    {% include dojodocirculo/eventos.html %}
+    {% include dojodocirculo/agenda.html %}
+    {% include dojodocirculo/instrutores.html %}
+    {% include dojodocirculo/social.html %}
+    {% include dojodocirculo/local.html %}
+    {% include dojodocirculo/footer.html %}
     {% include scripts.html %}
-    {% if page.ga_id %}{% include tracking.html ga_id=page.ga_id %}{% endif %}
+    {% if site.data.ga_id %}{% include tracking.html ga_id=page.ga_id %}{% endif %}
     </body>
 </html>

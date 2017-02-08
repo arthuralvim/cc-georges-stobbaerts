@@ -6,6 +6,7 @@ $dojo-color-2: #656565 !default;
 $dojo-color-3: #FC4F0F !default;
 $dojo-color-4: #F83710 !default;
 $dojo-color-5: #A7A175 !default;
+$dojo-color-6: #2E2E2E !default;
 
 $table-color: #626E7E;
 $table-color-light: lighten($table-color, 40%);
@@ -13,4 +14,5 @@ $table-color-light-2: darken($table-color-light, 3%);
 
 $social-background: #F0F0F0;
 $instrutores-background: $dojo-color-1;
-$local-background: $dojo-color-1;
+$local-background: $dojo-color-6;
+$footer-background: $dojo-color-6;
