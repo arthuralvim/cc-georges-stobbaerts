@@ -1,8 +1,7 @@
 {
   "name": "dojodocirculo",
   "dependencies": {
-    "bootstrap": "3.1.0",
-    "bootstrap-sass-official": "~3.1.0",
+    "bootstrap": "3.3.7",
     "c3": "0.4.10",
     "d3": "3.5.0",
     "font-awesome": "4.3.0",
@@ -10,10 +9,16 @@
     "jquery": "2.1.4",
     "underscore": "1.7.0",
     "holderjs": "~2.9.0",
-    "animate.css": "~3.4.0"
-  },
-  "resolutions": {
-    "underscore": "1.7.0"
+    "animate.css": "~3.4.0",
+    "bootstrap-carousel-swipe": "*",
+    "imagesloaded": "^4.1.1",
+    "smooth-scroll": "^1.0.1",
+    "masonry": "^4.1.1",
+    "socicon": "^3.0.4",
+    "Ionicons": "ionicons#^2.0.1",
+    "social-likes": "^3.1.2",
+    "social-feed": "^0.1.2",
+    "jquery.mb.ytplayer": "^3.0.10"
   },
   "private": true
 }
