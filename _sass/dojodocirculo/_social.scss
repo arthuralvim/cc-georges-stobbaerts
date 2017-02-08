@@ -1,0 +1,35 @@
+
+#social {
+
+    background-color: $social-background;
+
+    .social-text {
+        display: block;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        line-height: 1.5em;
+    }
+
+    .social-icon {
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s;
+        color: #252525;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 29px;
+        height: 56px;
+        line-height: 61px !important;
+        margin: 0 10px 13px 0;
+        position: relative;
+        text-align: center;
+        width: 56px;
+
+        &:hover {
+          color: #fff;
+          background-color: #252525 !important;
+          text-decoration: none;
+        }
+    }
+}
