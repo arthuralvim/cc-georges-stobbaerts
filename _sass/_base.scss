@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1em;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 60px;
+}
+
+section {
+    padding: 30px;
+    min-height: 100px;
+}
+
+.page-line {
+    margin-top: 0;
+    padding: 41px 0 28px 0;
+    top: 0;
+
+    .social-text {
+        letter-spacing: 4px;
+        line-height: 1em;
+        margin: 15px 0 0 0;
+    }
+}
+
+.table {
+    th, td {
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.dropdown-menu {
+    font-weight: normal;
+
+    a {
+        font-size: 0.8 em;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid;
+}
+
+.navbar-brand {
+
+    padding: 0px 15px !important;
+
+    img {
+        display: inline-block;
+    }
+
+    h1 {
+        margin: 0;
+        display: inline-block;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+
+.navbar-btn {
+    margin-left: 10px;
+}
+
+.navbar-custom {
+    a {
+        background-color: $navbar-default-link-bg;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-weight: bold;
+        font-size: 14px;
+        transition: background 0.1s;
+    }
+
+    .btn {
+        margin-left: 10px;
+    }
+}
+
+::selection {
+  background: $dojo-color-9;
+  color: $dojo-color-7;
+}
+
+::-moz-selection {
+  background: $dojo-color-9;
+  color: $dojo-color-7;
+}

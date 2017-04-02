@@ -1,0 +1,54 @@
+<section id="horarios-eventos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                <h1 class="text-center title-section">HORÁRIOS</h1>
+                <div id="horario" class="row">
+                    {% for horario in site.data.horarios %}
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <div class="dia">
+                            <div class="dia-texto">{{ horario.dia }}</div>
+                            <ul>
+                                <li>&nbsp;<br><small>&nbsp;</small></li>
+                                {% for aula in horario.horarios %}
+                                <li>{{ aula.aula }}<br><small>{{ aula.local }}</small><br><small>{{ aula.hora }}</small></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <h1 class="text-center title-section">EVENTOS</h1>
+                <div id="eventos" class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                        <table class="table table-hover table-stripped">
+                            <thead>
+                                <tr>
+                                    <th><i class="fa fa-calendar fa-lg"></i></th>
+                                    <th><i class="fa fa-quote-left fa-lg"></i></th>
+                                    <th><i class="fa fa-map-marker fa-lg"></i></th>
+                                    <th><i class="fa fa-info fa-lg"></i></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for evento in site.data.eventos %}
+                                <tr>
+                                    <td>{{ evento.data }}</td>
+                                    <td>{{ evento.nome }}</td>
+                                    <td>{{ evento.local }}</td>
+                                    <td><a href="{{ evento.poster_img }}" class="btn btn-dojo-5">POSTER</a></td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

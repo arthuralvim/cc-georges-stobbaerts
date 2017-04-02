@@ -1,0 +1,62 @@
+#horarios-eventos {
+
+    background-color: $horarios-eventos-background;
+
+    .local-text {
+        color: #9c9c9c;
+        font-size: 14px;
+        line-height: 1.7em;
+        font-weight: bold;
+        margin: 20px 0 0 0;
+    }
+
+    #horario {
+
+        .dia {
+            margin-bottom: 30px;
+            margin-top: 50px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #000;
+            border: 1px solid #000;
+            line-height: 30px;
+            cursor: pointer;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                background-color: transparent;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                text-align: center;
+                padding-left: 0px;
+
+                li {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    cursor: pointer;
+                    border-top: 1px solid #000;
+
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .dia-texto {
+                background-color: $dojo-color-1;
+                padding: 30px 20px;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 20px;
+                color: $dojo-color-7;
+            }
+        }
+    }
+}
+

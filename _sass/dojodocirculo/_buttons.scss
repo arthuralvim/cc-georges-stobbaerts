@@ -1,0 +1,71 @@
+@mixin button-dojo($color, $background, $border, $color2, $background2, $border2) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  transition: all .5s;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+
+  &:focus,
+  &.focus {
+    color: $color;
+    background-color: $background;
+        border-color: $border;
+  }
+  &:hover {
+    color: $color2;
+    background-color: $background2;
+        border-color: $border2;
+  }
+
+  .badge {
+    color: $background;
+    background-color: $color;
+  }
+
+}
+
+@mixin button-inverse-dojo($color1, $color2) {
+    @include button-dojo($color1, $color2, $color1, $color2, $color1, $color2);
+}
+
+@mixin button-inverse-dojo-same-border($color1, $color2) {
+    @include button-dojo($color1, $color2, $color1, $color2, $color1, $color1);
+}
+
+@mixin button-outline($color, $background, $border) {
+    background-color: inherit;
+    color: $color;
+    border-color: $border;
+    transition: all .5s;
+
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+.btn-dojo-1 {
+  @include button-dojo($dojo-color-7, transparent, $dojo-color-7, $dojo-color-1, $dojo-color-7, $dojo-color-7);
+}
+
+.btn-dojo-2 {
+  @include button-inverse-dojo-same-border($dojo-color-1, $dojo-color-7);
+}
+
+.btn-dojo-3 {
+  @include button-inverse-dojo-same-border($dojo-color-8, $dojo-color-7);
+}
+
+.btn-dojo-4 {
+  @include button-inverse-dojo-same-border($dojo-color-9, $dojo-color-7);
+}
+
+.btn-dojo-5 {
+  @include button-dojo($dojo-color-7, $dojo-color-9,  $dojo-color-9, $dojo-color-9, $dojo-color-1, $dojo-color-1);
+}
+
+.btn-dojo-6 {
+  @include button-dojo($dojo-color-1, $dojo-color-7,  $dojo-color-1, $dojo-color-7, $dojo-color-1, $dojo-color-1);
+}

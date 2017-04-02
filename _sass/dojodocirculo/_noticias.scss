@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------
+8.0 - Latest News Home
+--------------------------------------------------------------*/
+.latest-news {
+  display: block;
+  width: 100%;
+  // background: #f2f2f2 url(../img/elements/bg-5.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.latest-news .posts-row {
+  display: block;
+  margin: 0 -5px;
+}
+.latest-news .posts-row .post-container {
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 40px 5px 0;
+}
+@media screen and (min-width: 768px) {
+  .latest-news .posts-row .post-container {
+    width: 33.333333%;
+  }
+}
+.latest-news .posts-row .post-container .post {
+  display: block;
+  width: 100%;
+  padding: 10px 10px 20px;
+  background: #ffffff;
+  text-align: left;
+}
+.latest-news .posts-row .post-container .post h3 {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  margin: 20px 0 0;
+}
+.latest-news .posts-row .post-container .post .meta {
+  display: block;
+  width: 100%;
+}
+.latest-news .posts-row .post-container .post .meta a {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333333;
+  margin-top: 15px;
+  text-decoration: none;
+  padding-right: 15px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.latest-news .posts-row .post-container .post .meta a:hover {
+  color: #ed145b;
+}
+.latest-news .posts-row .post-container .post p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin: 15px 0 0;
+  padding: 0;
+}
+.latest-news .posts-row .post-container .post a.read-more {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #ed145b;
+  background: #333333;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.latest-news .posts-row .post-container .post a.read-more:hover {
+  background: #333333;
+  background: #ed145b;
+}

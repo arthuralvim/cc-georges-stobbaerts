@@ -1,25 +1,21 @@
 ---
 ---
 
-// $icon-font-path: "{{ site.github.url }}/assets/fonts/bootstrap";
-@import 'bootstrap';
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-
 @import "_variables";
+@import "dojodocirculo/_menu";
+// $icon-font-path: "{{ site.github.url }}/assets/fonts/bootstrap";
+@import 'bootstrap';
+
 @import "_base";
+@import "dojodocirculo/_buttons";
+@import "dojodocirculo/_header";
 @import "dojodocirculo/_social";
 @import "dojodocirculo/_local";
 @import "dojodocirculo/_footer";
-@import "dojodocirculo/_header";
-@import "dojodocirculo/_agenda";
 @import "dojodocirculo/_horarios";
-@import "dojodocirculo/_aikido";
-@import "dojodocirculo/_galeria";
-@import "dojodocirculo/_eventos";
-@import "dojodocirculo/_dojo";
+@import "dojodocirculo/_noticias";
 @import "dojodocirculo/_instrutores";
-@import "dojodocirculo/_menu2";

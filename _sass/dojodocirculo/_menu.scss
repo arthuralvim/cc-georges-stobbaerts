@@ -1,0 +1,29 @@
+$navbar-height: 60px;
+
+$navbar-default-color: rgb(51, 51, 51);
+$navbar-default-bg: rgba(#fff, 1);// transparent; ;
+$navbar-default-border: $dojo-color-1;
+
+// borda da barra de menu
+$navbar-default-border: transparent;
+
+// links normais
+$navbar-default-link-color: $dojo-color-1;
+$navbar-default-link-bg: transparent;
+$navbar-default-link-hover-color: $dojo-color-7;
+$navbar-default-link-hover-bg: $dojo-color-1;
+
+// links ativos
+$navbar-default-link-active-color: $dojo-color-7;
+$navbar-default-link-active-bg: $dojo-color-1;
+
+// links ativos
+$navbar-default-link-disabled-color: #ccc;
+$navbar-default-link-disabled-bg: $dojo-color-2;
+
+
+$dropdown-bg: $dojo-color-1;
+$dropdown-link-color: $dojo-color-7;
+
+$dropdown-link-hover-color: $dojo-color-2;
+$dropdown-link-hover-bg: $dojo-color-7;
