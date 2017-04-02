@@ -1,6 +1,6 @@
 # Makefile dojodocirculo
 
-.PHONY: all help install build rebuild clean
+.PHONY: all help install build rebuild clean clean.all run
 
 all: help
 
@@ -18,7 +18,15 @@ build:
 	@gulp
 	@jekyll serve
 
+run:
+	@jekyll serve
+
 clean:
 	@gulp clean
+
+clean.all:
+	@gulp clean
+	rm -rf node_modules/
+	rm -rf assets/bower/
 
 rebuild: clean build
