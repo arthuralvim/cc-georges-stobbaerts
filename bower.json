@@ -8,6 +8,8 @@
     "handlebars": "3.0.0",
     "jquery": "2.1.4",
     "underscore": "1.7.0",
+    "parallax.js": "1.4.2",
+    "photoswipe": "~4.1.0",
     "holderjs": "~2.9.0",
     "animate.css": "~3.4.0",
     "bootstrap-carousel-swipe": "*",

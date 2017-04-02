@@ -32,7 +32,13 @@ gulp.task('js:plugins', function(){
             bower_path + '/holderjs/holder.js',
             bower_path + '/underscore/underscore.js',
             bower_path + '/d3/d3.js',
-            bower_path + '/c3/c3.js'
+            bower_path + '/c3/c3.js',
+            bower_path + '/bootstrap-carousel-swipe/carousel-swipe.js',
+            bower_path + '/smooth-scroll/smooth-scroll.js',
+            bower_path + '/parallax.js/parallax.js',
+            bower_path + '/masonry/dist/masonry.pkgd.js',
+            bower_path + '/imagesloaded/imagesloaded.pkgd.js',
+            bower_path + '/social-likes/src/social-likes.js'
         ]).pipe(concat('plugins.js'))
         .pipe(uglify())
         .pipe(gulp.dest('assets/js/'));
@@ -40,10 +46,10 @@ gulp.task('js:plugins', function(){
 
 gulp.task('css:plugins', function(){
     return gulp.src([
-            bower_path + '/bootstrap/dist/css/bootstrap.css',
             bower_path + '/font-awesome/css/font-awesome.css',
             bower_path + '/c3/c3.css',
-            bower_path + '/animate.css/animate.css'
+            bower_path + '/animate.css/animate.css',
+            bower_path + '/socicon/css/socicon.css'
         ]).pipe(concat('plugins.css'))
           .pipe(minifyCss({keepSpecialComments: 0}))
           .pipe(gulp.dest('assets/css/'));
@@ -52,7 +58,7 @@ gulp.task('css:plugins', function(){
 gulp.task('fonts:plugins', function(){
     return gulp.src([
         bower_path + '/bootstrap/fonts/**/*.{ttf,woff,eof,svg}',
-        bower_path + '/font-awesome/fonts/**/*.{otf,ttf,woff,woff2,eof,svg}'
+        bower_path + '/font-awesome/fonts/**/*.{otf,ttf,woff,woff2,eof,svg}',
         ]).pipe(gulp.dest('assets/fonts/'));
 });
 

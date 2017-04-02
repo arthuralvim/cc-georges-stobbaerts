@@ -1,12 +1,12 @@
 <section id="instrutores">
     <div class="container">
-        <h1 class="text-center title-section">INSTRUTORES</h1>
         <div class="container">
             <div class="row">
+                <h1 class="text-center title-section">INSTRUTORES</h1>
                 {% for instrutor in site.data.instrutores %}
                     <div class="col-sm-4 instrutor">
                         <div class="instrutor-wrapper">
-                            <img src="holder.js/360x412?theme=sky&amp;text=instrutor 1.&amp;nowrap=true" alt="{{ instrutor.nome }}" title="{{ instrutor.nome }}" class="img-responsive">
+                            <img src="{{ site.baseurl }}{{ instrutor.img }}" alt="{{ instrutor.nome }}" title="{{ instrutor.nome }}" class="img-responsive">
                             <div class="mask">
                                 <h1>{{ instrutor.nome }}</h1>
                                 <p>{{ instrutor.bio }}</p>

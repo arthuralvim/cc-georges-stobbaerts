@@ -1,0 +1,21 @@
+---
+
+- menu: aikido
+  src: "#aikido"
+  links:
+    - {texto: "sobre o aikido", src: "#"}
+    - {texto: "sobre o hanshi stobbaerts", src: "#"}
+
+- menu: dojo
+  src: "#dojo"
+  links:
+    - {texto: "notícias", src: "#news"}
+    - {texto: "horários", src: "#horarios"}
+    - {texto: "eventos", src: "#eventos"}
+    - {texto: "locais", src: "#local"}
+
+- menu: media
+  src: "#media"
+
+- menu: instrutores
+  src: "#instrutores"

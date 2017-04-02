@@ -1,0 +1,67 @@
+---
+
+- dia: SEGUNDA <br> FEIRA
+  horarios:
+    - {hora: "06:00 - 08:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "08:00 - 10:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "10:00 - 12:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "12:00 - 14:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "14:00 - 16:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "16:00 - 18:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "18:00 - 20:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "20:00 - 22:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+
+- dia: TERÇA <br> FEIRA
+  horarios:
+    - {hora: "06:00 - 08:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "08:00 - 10:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "10:00 - 12:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "12:00 - 14:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "14:00 - 16:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "16:00 - 18:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "18:00 - 20:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "20:00 - 22:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+
+- dia: QUARTA <br> FEIRA
+  horarios:
+    - {hora: "06:00 - 08:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "08:00 - 10:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "10:00 - 12:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "12:00 - 14:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "14:00 - 16:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "16:00 - 18:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "18:00 - 20:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "20:00 - 22:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+
+- dia: QUINTA <br> FEIRA
+  horarios:
+    - {hora: "06:00 - 08:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "08:00 - 10:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "10:00 - 12:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "12:00 - 14:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "14:00 - 16:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "16:00 - 18:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "18:00 - 20:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "20:00 - 22:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+
+- dia: SEXTA <br> FEIRA
+  horarios:
+    - {hora: "06:00 - 08:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "08:00 - 10:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "10:00 - 12:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "12:00 - 14:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "14:00 - 16:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "16:00 - 18:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "18:00 - 20:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "20:00 - 22:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+
+- dia: SÁBADO <br> &nbsp;
+  horarios:
+    - {hora: "06:00 - 08:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "08:00 - 10:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "10:00 - 12:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "12:00 - 14:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "14:00 - 16:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "16:00 - 18:00", aula: "&nbsp;", local: "&nbsp;"}
+    - {hora: "18:00 - 20:00", aula: "Aikido", local: "Centro de Artes Marciais"}
+    - {hora: "20:00 - 22:00", aula: "Aikido", local: "Centro de Artes Marciais"}
