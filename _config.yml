@@ -17,9 +17,10 @@ default_locale: 'pt-BR'
 authorized_locales: ['pt-BR', ]
 
 gems:
+    - jekyll-bootstrap-sass
+    - jekyll-seo-tag
     - jekyll-paginate
     - jekyll-sitemap
-    - jekyll-bootstrap-sass
 
 # sass
 
