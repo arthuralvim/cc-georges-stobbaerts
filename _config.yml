@@ -17,7 +17,6 @@ default_locale: 'pt-BR'
 authorized_locales: ['pt-BR', ]
 
 gems:
-    - jekyll-bootstrap-sass
     - jekyll-seo-tag
     - jekyll-paginate
     - jekyll-sitemap
@@ -27,6 +26,3 @@ gems:
 sass:
     sass_dir: _sass
     style: compressed
-
-bootstrap:
-  assets: false
