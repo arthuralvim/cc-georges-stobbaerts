@@ -2,7 +2,7 @@
 #footer {
 
     background-color: $footer-background;
-    min-height: 300px;
+    min-height: 400px;
 
     .footer-text {
         color: #9c9c9c;
@@ -12,12 +12,8 @@
     }
 
     .footer-tenchi {
-        height: 52px;
-
-        svg path {
-            color: #fff;
-            fill: #fff !important;
-        }
+        margin-top: 20px;
+        height: 120px;
     }
 
 }

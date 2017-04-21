@@ -3,6 +3,7 @@
 _site
 assets/*
 !assets/js-src
+!assets/img
 !assets/css/*.scss
 node_modules
 *.lock

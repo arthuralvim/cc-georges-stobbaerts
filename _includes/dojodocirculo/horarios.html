@@ -10,7 +10,6 @@
                         <div class="dia">
                             <div class="dia-texto">{{ horario.dia }}</div>
                             <ul>
-                                <li>&nbsp;<br><small>&nbsp;</small></li>
                                 {% for aula in horario.horarios %}
                                 <li>{{ aula.aula }}<br><small>{{ aula.local }}</small><br><small>{{ aula.hora }}</small></li>
                                 {% endfor %}
