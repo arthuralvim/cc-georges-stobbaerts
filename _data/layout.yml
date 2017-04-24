@@ -1,12 +1,9 @@
 ---
 
-# header_img: "/assets/img/dojodocirculo/principal.jpg"
-header_img: "holder.js/1920x1279?theme=sky&amp;text=background.&amp;nowrap=true"
+header_img: "/assets/img/dojo-do-circulo/capa-dojo.jpg"
 header_background_opacity: 0.6
 header_background_color: "#656565"
-# stobbaerts_img: "/assets/img/mestre/mestre-leque.png"
-stobbaerts_img: "holder.js/535x401.25?theme=sky&amp;text=foto mestre.&amp;nowrap=true"
-# stobbaerts_background_img: "/assets/img/mestre/mestre-stobbaerts.jpg"
-stobbaerts_background_img: "holder.js/1920x1285?theme=sky&amp;text=background mestre.&amp;nowrap=true"
+stobbaerts_img: "/assets/img/mestre/mestre-leque.png"
+stobbaerts_background_img: "/assets/img/mestre/mestre-stobbaerts.jpg"
 stobbaerts_background_opacity: 0.5
 stobbaerts_background_color: "#656565"
