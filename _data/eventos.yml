@@ -1,22 +1,9 @@
 ---
 
-- data: 10/10/2010
-  poster_img: "#"
-  local: "lorem Alto Santa Terezinha"
-  nome: "10º Estágio Internacional de Aikido"
+# - data: 10/10/2010
+#   poster_img: "#"
+#   local: "Alto Santa Terezinha"
+#   nome: "10º Estágio Internacional de Aikido"
+#   desabilitado: no
 
-- data: 10/10/2010
-  poster_img: "#"
-  local: "Geraldão"
-  nome: "1º Estágio Nacional de Aikido"
-
-- data: 10/10/2010
-  poster_img: "#"
-  local: "Arrudão"
-  nome: "11º Encontro de Aikidocas de Pernambuco"
-
-- data: 10/10/2010
-  poster_img: "#"
-  local: "Parque da Jaqueira"
-  nome: "Estágio do Professor Fulano de Tal"
 

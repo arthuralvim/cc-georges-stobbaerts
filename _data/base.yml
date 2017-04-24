@@ -7,4 +7,5 @@ domain: 'dojodocirculo.com.br'
 copyright_year: '2017'
 email: 'contato@dojodocirculo.com.br'
 ga_id: "UA-XXXXX-X"
+gmaps_key: "AIzaSyDQEO6vHjj0goeoKdHwTIMVb5d48gmEXMo"
 location: {latitude: -8.050485, longitude: -34.908340}

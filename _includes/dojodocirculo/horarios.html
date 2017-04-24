@@ -19,8 +19,9 @@
                     {% endfor %}
                 </div>
 
-                <h1 class="text-center title-section">EVENTOS</h1>
                 <div id="eventos" class="row">
+                {% if site.data.eventos %}
+                <h1 class="text-center title-section">EVENTOS</h1>
 
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
@@ -39,12 +40,13 @@
                                     <td>{{ evento.data }}</td>
                                     <td>{{ evento.nome }}</td>
                                     <td>{{ evento.local }}</td>
-                                    <td><a href="{{ evento.poster_img }}" class="btn btn-dojo-5">POSTER</a></td>
+                                    <td><a href="{{ evento.poster_img }}" class="btn btn-dojo-5 {% if evento.desabilitado %}disabled{% endif %}" {% if evento.desabilitado %}role="button" aria-disabled="true"{% endif %}>POSTER</a></td>
                                 </tr>
                                 {% endfor %}
                             </tbody>
                         </table>
                     </div>
+                {% endif site.data.eventos %}
                 </div>
             </div>
         </div>
